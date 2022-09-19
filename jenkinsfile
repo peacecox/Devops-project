@@ -1,4 +1,4 @@
-ode('') {
+node('') {
 	stage ('checkout code'){
 		checkout scm
 	}
@@ -31,4 +31,3 @@ ode('') {
 		    )
 	}
 }
-
